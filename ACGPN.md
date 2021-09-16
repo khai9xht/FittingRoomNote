@@ -4,7 +4,7 @@
 *Link repo: https://github.com/switchablenorms/DeepFashion_Try_On*
 
 
-![](ACGPN_architecture.png)
+![](images/ACGPN_architecture.png)
 
 Kiến Trúc ACGPN gồm 3 module:
 - Semantic layout generation Module: dự đoán các layouts của các phần trên cơ thể người sẽ bị thay đổi sau khi thay đồ
@@ -22,7 +22,7 @@ Kiến Trúc ACGPN gồm 3 module:
 	+ Quá trình: gồm 2 bước là **Non-target Body Part Composition** để xác định các bộ phận trên cơ thể bị thay dổi sau khi mặc đồ ($T_c$) và **Mask Inpainting** để điền kết quả của module thứ 2 lên ảnh để được kêt quả cuối cùng
 
 ### **Một số kết quả điển hình:**
-![](ACGPN_results.png)
+![](images/ACGPN_results.png)
 
 Ưu điểm:
 - Nội dung về màu sắc, độ tương phản của đồ cần mặc được giữ ở mức độ tốt với ảnh phân giải thấp

@@ -12,7 +12,7 @@
 	+ ảnh fake + vật bị thay thế trong ảnh gốc quá generation model (student) -> so sánh với ảnh gốc để thu kết qua tốt nhất (supervised learning)
 
 
-</br>![](PF-AFN_method.png) </br></br></br>
+</br>![](images/PF-AFN_method.png) </br></br></br>
 
 ### Kiến trúc mô hình khi training (hình a)
 - training teacher: teacher có kiến trúc tương đồng với các state-of-the-art model nhứ VITON, ACGPN, khác tại module warping: 
@@ -21,11 +21,11 @@
 	+ **Generative Module (GM)**: Res-UNet (Unet with Resnet backbone) 
 
 
-</br>![](PF-AFN_architecture.png) </br></br></br>
+</br>![](images/PF-AFN_architecture.png) </br></br></br>
 
 
 ### Một số kết quả điển hình
-</br>![](PF-AFN_results.png) </br></br></br>
+</br>![](images/PF-AFN_results.png) </br></br></br>
 
 
 ### Đánh giá thực nghiệm
@@ -34,4 +34,4 @@
 - Đơn giản hóa dữ liệu đầu vào, giảm kích thước mô hình
 
 
-</br>![](PF-AFN_examplePipeline.png) </br></br></br>
+</br>![](images/PF-AFN_examplePipeline.png) </br></br></br>

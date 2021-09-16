@@ -3,7 +3,7 @@
 - propose Mask-RCNN to leverage itself two stage and Neural Style Transfer (NST) </br>
 - Mask-RCNN with Resnet-101-FPN (Feature Pyramid Network) as backbone predicts box, mask of items </br>
 - NST to learn and tranform pose and context of target items to right position in original image </br>
-![](RCNN_method.png)
+![](images/RCNN_method.png)
 
 #### 1.1. Mask-RCNN
 - Regional Proposal Network (RPN)
@@ -16,5 +16,5 @@
 
 ## Results
 
-![](RCNN_results.png)
-![](RCNN_results2.png)
+![](images/RCNN_results.png)
+![](images/RCNN_results2.png)

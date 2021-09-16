@@ -11,7 +11,7 @@
 - Leverage training data of a person with fixed pose wearing different clothes and the corresponding product images </br>
 
 #### 2.2. Architecture
-![](VITON_architecture.png)
+![](images/VITON_architecture.png)
 - GAN architecture with Unet is generator and VGG is dicriminator
 - Inputs of Unet are person representations with 4 channels (original image, pose heatmap, Body shape, Face and hair) and target clothing (RGB). Outputs are coarse result that person in original image wear target clothing and clothing mask.
 - Target clothing c is tranformed follow mask and match context. Then it feed into refined task to find composition and match to coarse result.
@@ -20,7 +20,7 @@
 - Pose heatmap: detect 18 keypoints </br> 
 - Human body representation: compute segmentation map of body </br>
 - Face and hair segment: segmentation map (to maintain identity identity) </br>
-![](VITON_personRepresentation.png)
+![](images/VITON_personRepresentation.png)
 
 #### 2.2.2. Multi-task Encoder-Decoder Generator
 - Backbone: Unet
@@ -28,9 +28,9 @@
   
 #### 2.2.3. Refinement Network
 - Warped clothing item: propose TPS transformation to learn context of item c to transformed item (use siamese architecture).
-![](VITON_TPStransformation.png)
+![](images/VITON_TPStransformation.png)
 
 
 ### Results
-![](VITON_results.png)
-![](VITON_results2.png)
+![](images/VITON_results.png)
+![](images/VITON_results2.png)
